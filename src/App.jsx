@@ -3,7 +3,7 @@ import Footer from './footer.jsx';
 import Batch from './Batch.jsx';
 import Card from './Card.jsx';
 import Button from './Button/Button.jsx';
-import Button2 from './Button2.jsx';
+import Inline from './ButtonInline.jsx';
 import Student from './Student.jsx';
 
 // adding css technique-- external, modules, inline
@@ -18,10 +18,10 @@ function App(){
        <Card/>
        <Card/>
        <Card/><br></br>
-       <Button/><br></br>
-       <Button2/>
+       <Button/>&nbsp;&nbsp;&nbsp;
+       <Inline/>
        <p> <b>Infromation of Student 1:</b></p>
-       <Student name="Farisha Hussain" age={24} semes="8th" isStudent={false}/>
+       <Student name="Farisha Hussain" age={24} semester="8th" isStudent={false}/>
     </>
    
 

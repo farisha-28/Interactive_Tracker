@@ -1,6 +1,8 @@
 function Header(){
 
-    return(  //Raw html code inside return
+    // JavaScript code
+
+    return(  //Raw html code inside return--- if you want to use js inside it, add {js code---}
         <header>
             <h1>My Website</h1>
             <nav>

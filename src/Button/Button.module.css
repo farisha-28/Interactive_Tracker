@@ -1,0 +1,13 @@
+/* css in seperate module for a dedicated file */
+
+.button{
+
+    background-color:rgb(197, 121, 20);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
