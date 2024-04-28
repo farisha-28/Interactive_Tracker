@@ -1,0 +1,4 @@
+public - contains image files etc- accessible via url
+assets - same like public folder but bundled during the final output.
+idex.css - the main stylig sheet for the project
+main.jsx - here you have to connect all other app component.
