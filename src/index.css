@@ -1,3 +1,22 @@
+.welcome-msg{
+  font-size: 1em;
+  background-color: rgb(11, 189, 129);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+  text-align: center; /* Center-align text */
+}
+
+.login-prompt{
+  font-size: medium;
+  background-color: rgb(226, 19, 19);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
 .card{
   border: 1px solid rgb(235, 224, 224);
   border-radius: 10px;
@@ -26,3 +45,15 @@
   color: hsl(0, 0%, 30%);
 }
 
+.para{
+  padding: 10px;
+}
+.student{
+  font-family: cursive;
+  font-size: 1em;
+  padding: 10px;
+}
+
+.student p{
+  margin: 0;
+}

@@ -5,12 +5,15 @@ import Card from './Card.jsx';
 import Button from './Button/Button.jsx';
 import Inline from './ButtonInline.jsx';
 import Student from './Student.jsx';
+import UserGreeting from './GreetigUser.jsx';
+import List from './List.jsx';
 
 // adding css technique-- external, modules, inline
 function App(){
   return(
     <>
        <Header/> 
+       <UserGreeting isLoggedIn={true} age={7} userName="Farisha"/>
        <Batch/>
        <Footer/>
        <Card/>
@@ -19,9 +22,13 @@ function App(){
        <Card/>
        <Card/><br></br>
        <Button/>&nbsp;&nbsp;&nbsp;
-       <Inline/>
-       <p> <b>Infromation of Student 1:</b></p>
+       <Inline/><br></br>
+       <List/>
+       <p className='para'> <b>Infromation About Students:</b></p>
        <Student name="Farisha Hussain" age={24} semester="8th" isStudent={false}/>
+       <Student name="Amyra Ismaiel" age={7} semester="Senior kg" isStudent={true}/>
+       <Student name="Maya" age={8} semester="Senior kg" isStudent={true}/>
+       
     </>
    
 
