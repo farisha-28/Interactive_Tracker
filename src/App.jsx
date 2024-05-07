@@ -5,7 +5,7 @@ import Card from './Card.jsx';
 import Button from './Button/Button.jsx';
 import Inline from './ButtonInline.jsx';
 import Student from './Student.jsx';
-import UserGreeting from './GreetigUser.jsx';
+import UserGreeting from './GreetingUser.jsx';
 import List from './List.jsx';
 import Event from './eventHandling.jsx';
 
