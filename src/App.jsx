@@ -7,8 +7,9 @@ import Inline from './ButtonInline.jsx';
 import Student from './Student.jsx';
 import UserGreeting from './GreetingUser.jsx';
 import List from './List.jsx';
-import Event from './eventHandling.jsx';
-import UseStateHook from './useStateHook.jsx';
+// import Event from './eventHandling.jsx';
+// import UseStateHook from './useStateHook.jsx';
+import FormComponent from './Form.jsx';
 
 // adding css technique-- external, modules, inline
 function App(){
@@ -29,9 +30,11 @@ function App(){
        <Student name="Farisha Hussain" age={24} semester="8th" isStudent={false}/>
        <Student name="Amyra Ismaiel" age={7} semester="Senior kg" isStudent={true}/>
        <Student name="Maya" age={8} semester="Senior kg" isStudent={true}/>
-       <Event/>
+       {/* <Event/> */}
+       {/* <UseStateHook/> */}
+       <FormComponent/>
        <Footer/>
-       <UseStateHook/>
+       
        
     </>
    

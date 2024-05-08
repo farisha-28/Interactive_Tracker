@@ -8,11 +8,11 @@ function Event() {
     const eventStyles = {
         backgroundColor : "rgb(197, 121, 20)",
         color : "white",
-        padding: "10px 20px",
+        padding: "8px 8px",
         borderRadius: "10px",
         border : "none",
         cursor: "pointer",
-        marginLeft: "10px", 
+        // marginLeft: "10px", 
     }
 
     const handleClick = (name) => {
